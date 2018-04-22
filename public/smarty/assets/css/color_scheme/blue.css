@@ -1,13 +1,13 @@
 /** Blue	#35459C
  **************************************************************** **/
 	::selection {
-		background: #35459C;
+		background: #005400;
 	}
 	::-moz-selection {
-		background: #35459C; /* Firefox */
+		background: #005400; /* Firefox */
 	}
 	::-webkit-selection {
-		background: #35459C; /* Safari */
+		background: #005400; /* Safari */
 	}
 
 
