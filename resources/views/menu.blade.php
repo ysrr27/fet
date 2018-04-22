@@ -65,6 +65,11 @@
 														<a class="" href="#gerentes">
 															{{trans('menu.equipoGerencial')}}
 														</a>
+													</li>	
+													<li class="dropdown">
+														<a class="" href="#objetivos">
+															{{trans('menu.objetivos')}}
+														</a>
 													</li>												
 												</ul>											
 

@@ -12,6 +12,7 @@ return [
     'nombreApellido' => 'Nombre y Apellido *',
     'correoE' => 'Correo Electrónico',
     'telefono' => 'Teléfono',
+    'fax' => 'fax',
 
     'cargo' => 'Cargo',
     'seleccion' => 'Seleccione',
@@ -44,7 +45,7 @@ return [
 
     'visitanos' => 'Visítanos',
     'direccion' => 'Dirección',
-    'mezzanina' => 'Mezzanina Este, oficina B&G del Edf. Andrés German Otero del Centro Rental de la UNIMET, Terrazas del Ávila.',
+    'mezzanina' => 'CARRERA 9ª # 15-104 BARRIO PABLO SEXTO.',
 
 
 

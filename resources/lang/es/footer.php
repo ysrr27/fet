@@ -4,13 +4,13 @@ return [
     'llamanos' => 'Llámanos al',
     'estamosPara' => 'Estamos para brindarte la mejor atención y asesoría',
 
-    'nombreLogo' => 'El nombre y logo de iLernus son marcas registradas.',
+    'nombreLogo' => '',
     'soporte' => 'Soporte',
-    'mapa' => 'Mapa del Sitio',
-    'terminosServicios' => 'Términos del Servicio',
-    'politicasPrivacidad' => 'Políticas de Privacidad',
+    'inicio' => 'inicio',
+    'nosotros' => 'Nosotros',
+    'programas' => 'Programas',
 
-    'Newsletter' => 'Newsletter',
+    'contactenos' => 'Contáctenos',
 
     'desarrollado' => 'Desarrollado por B&G Technologies',
 

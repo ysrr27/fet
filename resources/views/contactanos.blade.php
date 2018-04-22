@@ -8,42 +8,13 @@
 
 					<div class="text-center">
 						<h3 class="size-30">{{trans('contacto.contactanos')}}</h3>
-						<p>{{trans('landing.enI')}} <strong style="color: #F47741; font-size: 20px">iLernus,</strong> {{trans('contacto.adaptamos')}} <em><b>{{trans('contacto.ti')}}</b></em></p>
+						<p>{{trans('landing.enI')}} <strong style="color: #F47741; font-size: 20px">FUNDACIÓN EQUIPO TECNICO,</strong> {{trans('contacto.adaptamos')}} <em><b>{{trans('contacto.ti')}}</b></em></p>
 					</div>
 
 				</div>
 			</section>
 		
-			<!--
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
-
-				<div class="text-center">
-
-					<h3 style="color: #ffffff">Da un recorrido virtual por nuestras instalaciones</h3>
-
-				</div>
-
-			</div>
-
-			<section>
-				<div class="container">
-
-					<div class="row">
-
-						
-						<div class="col-md-12 col-sm-12" style="">
-
-							<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
-
-						</div>
-
-					</div>	
-
-
-				</div>
-			</section>
-			-->
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #005400">
 
 				<div class="text-center">
 
@@ -183,14 +154,12 @@
 								height-550
 								height-600
 							-->
-							<div id="map2" class="height-200 grayscale"></div>
-
-							<hr />
 
 							<p>
 								<span class="block"><strong><i class="fa fa-map-marker"></i> {{trans('contacto.direccion')}}:</strong> {{trans('contacto.mezzanina')}}</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> {{trans('contacto.telefono')}}:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.24.31 </a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> {{trans('contacto.correoE')}}:</strong> <a href="mailto:info@ilernus.com">info@ilernus.com</a></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> {{trans('contacto.telefono')}}:</strong> <a href="tel:3126042380">3126042380</a></span>
+								<span class="block"><strong><i class="fa fa-fax"></i> {{trans('contacto.fax')}}:</strong> <a href="tel:3126042380">3126042380</a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> {{trans('contacto.correoE')}}:</strong> <a href="mailto:info@ilernus.com">fetsjo@gmail.com</a></span>
 							</p>
 
 						</div>

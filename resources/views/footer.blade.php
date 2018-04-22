@@ -9,8 +9,8 @@
 							<ul class="list-unstyled">
 								<li>
 
-									<a href="http://www.ilernus.com" target="">
-										<img class="img-responsive" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-01.png') }}" alt="logo iLernus" title="www.ilernus.com" style="width: 100%" />	
+									<a href="#" target="">
+										<img class="img-responsive" src="{{ asset('smarty/assets/images/logo_fet.png') }}" alt="logo iLernus" title="www.ilernus.com" style="width: 100%" />	
 									</a>
 
 								</li>
@@ -27,10 +27,10 @@
 
 							<h4 class="letter-spacing-1">{{trans('footer.soporte')}}</h4>
 							<ul class="footer-links list-unstyled">
-								<li><a href="{{ route('mapa')}}">{{trans('footer.mapa')}}</a></li>
-								<li><a href="{{ route('terminos') }}">{{trans('footer.terminosServicios')}}</a></li>
-								<li><a href="{{ route('politicas')}}">{{trans('footer.politicasPrivacidad')}}</a></li>
-								<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>
+								<li><a href="{{ route('mapa')}}">{{trans('footer.inicio')}}</a></li>
+								<li><a href="{{ route('terminos') }}">{{trans('footer.nosotros')}}</a></li>
+								<li><a href="{{ route('politicas')}}">{{trans('footer.programas')}}</a></li>
+								<li><a href="{{ route('politicas')}}">{{trans('footer.contactenos')}}</a></li>
 							</ul>
 
 							<!-- /Links -->
@@ -39,42 +39,13 @@
 
 						<div class="col-md-3">
 
-							<!-- Links -->
-							<h4 class="letter-spacing-1">{{trans('footer.Newsletter')}}</h4>
-
-								<form class="validate" action="smarty/php/newsletter.php" method="post" data-success="¡Gracias por suscribirse!" data-toastr-position="top-right" >
-
-									
-									<div class="input-group">
-										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-										<input type="email" id="email" name="email" class="form-control required" placeholder="{{trans('contacto.nombreApellido')}}">
-										<input type="text" id="nombre" name="nombre" class="form-control required" placeholder="{{trans('contacto.correoE')}}">
-										<span class="input-group-addon">
-											<button class="btn btn-primary" type="submit"><i class="fa fa-send"></i></button>
-										</span>
-									</div>
-									
-								</form>
-
-
-							<!-- /Links -->
+							
 
 						</div>
 
 						<div class="col-md-3">
 
-							<ul class="list-unstyled">
-								<li>
-
-									<a href="http://www.monitorbg.com" target="_blank">
-										<img class="img-responsive" src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com" style="width: 100%" />	
-									</a>
-
-								</li>
-
-								<li>{{trans('footer.desarrollado')}}<br>S.A. J-405498633</li>
-								
-							</ul>
+							
 
 						</div>
 
@@ -111,7 +82,7 @@
 							</li>
 
 						</ul>
-						&copy; 2017 iLernus. {{trans('footer.todosLos')}}.
+						&copy; 2018 Fundación Equipo Tecnico. {{trans('footer.todosLos')}}.
 					</div>
 				</div>
 			</footer>			

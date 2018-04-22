@@ -132,7 +132,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="{{ route('home') }}">
-							<img class="img-responsive" src="{{ asset('smarty/assets/images/logo_fet.png') }}" alt="logo ilernus" title="www.ilernus.com" />														
+							<img class="img-responsive" src="{{ asset('smarty/assets/images/logo_fet.png') }}" alt="logo ilernus" title="fet" />														
 						</a>
 
 
@@ -170,8 +170,6 @@
 			<div class="callout alert alert-default noborder noradius nomargin">
 
 	<div class="text-center">
-
-		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> ¡{{trans('footer.llamanos')}} <strong>0800-iLernus</strong>! (453 76 87)</h3>
 		<p class="font-lato size-20">
 			{{trans('footer.estamosPara')}}
 		</p>

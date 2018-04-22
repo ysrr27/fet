@@ -9,6 +9,7 @@ return [
     'contacto' => 'Contáctenos',
     'equipoDirectivo' => 'Misión',
     'equipoGerencial' => 'Visión',
+    'objetivos' => 'Objetivos',
 
 
 
