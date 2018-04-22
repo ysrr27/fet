@@ -27,10 +27,10 @@
 
 							<h4 class="letter-spacing-1">{{trans('footer.soporte')}}</h4>
 							<ul class="footer-links list-unstyled">
-								<li><a href="{{ route('mapa')}}">{{trans('footer.inicio')}}</a></li>
-								<li><a href="{{ route('terminos') }}">{{trans('footer.nosotros')}}</a></li>
-								<li><a href="{{ route('politicas')}}">{{trans('footer.programas')}}</a></li>
-								<li><a href="{{ route('politicas')}}">{{trans('footer.contactenos')}}</a></li>
+								<li><a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#">{{trans('footer.inicio')}}</a></li>
+								<li><a href="#conocenos">{{trans('footer.nosotros')}}</a></li>
+								<li><a href="#conocenos">{{trans('footer.programas')}}</a></li>
+								<li><a href="{{ route('contactanos')}}">{{trans('footer.contactenos')}}</a></li>
 							</ul>
 
 							<!-- /Links -->

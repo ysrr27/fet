@@ -150,6 +150,11 @@
 												{{trans('menu.contacto')}}
 											</a>
 										</li>
+										<li>
+											<a href="{{ route('blog')}}">
+												{{trans('menu.blog')}}
+											</a>
+										</li>
 
 									</ul>						 
 

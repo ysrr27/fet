@@ -10,6 +10,7 @@ return [
     'equipoDirectivo' => 'Misión',
     'equipoGerencial' => 'Visión',
     'objetivos' => 'Objetivos',
+    'blog' => 'Noticias',
 
 
 
