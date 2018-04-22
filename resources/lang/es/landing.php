@@ -18,7 +18,8 @@ return [
 
     'porQueElegirnos' => '¿Por qué elegirnos?',
     'enI' => 'En',
-    'Ilernus' => 'iLernus',
+    'Ilernus' => 'FUNDACIÓN EQUIPO TECNICO',
+    'objetivo' => 'Objetivos',
     'queremosBrindarte' => 'queremos brindarte lo',
     'mejor' => 'mejor',
 
@@ -62,14 +63,14 @@ return [
     'funcionesHerramientas' => 'Funciones y herramientas orientadas',
     'aprendizajeProductividad' => 'al aprendizaje y a la productividad',
 
-    'conocenos' => 'Conócenos',
-    'ofrecemosAltaCalidad' => 'ofrecemos la más alta calidad en contenidos y metodología para el',
+    'conocenos' => 'Nosotros',
+    'ofrecemosAltaCalidad' => ' Impulsamos la región y el país, en un modelo de desarrollo humano sostenible que promueve la convivencia',
 
-    'equipoDirectivo' => 'Equipo Directivo',
+    'equipoDirectivo' => 'Misión',
     'cerrar' => 'Cerrar',
     'verMas' => 'Ver más',
 
-    'equipoGerencial' => 'Equipo Gerencial',
+    'equipoGerencial' => 'Visión',
 
     'soluciones' => 'Soluciones',
     'academia' => 'Academia',

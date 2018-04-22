@@ -132,7 +132,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="{{ route('home') }}">
-							<img class="img-responsive" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-01.png') }}" alt="logo ilernus" title="www.ilernus.com" />														
+							<img class="img-responsive" src="{{ asset('smarty/assets/images/logo_fet.png') }}" alt="logo ilernus" title="www.ilernus.com" />														
 						</a>
 
 

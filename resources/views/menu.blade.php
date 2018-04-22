@@ -43,34 +43,7 @@
 											@endif
 
 										</li>
-										<li class=""><!-- HOME -->
-
-											@if(Route::current()->getName() == 'home')
-
-												<a href="#ilernus">
-													{{trans('menu.ilernus')}}
-												</a>
-
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
-
-												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#ilernus">
-														{{trans('menu.ilernus')}}
-													</a>
-
-												@else
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#ilernus">
-														{{trans('menu.ilernus')}}
-													</a>
-
-												@endif
-
-											@endif
-
-										</li>
-
+								
 
 
 
@@ -139,132 +112,39 @@
 											@endif
 
 										</li>
-
-
-
-
-
-										<li><!--  -->
+										<li class=""><!-- HOME -->
 
 											@if(Route::current()->getName() == 'home')
 
-												<a  href="#soluciones">
-													{{trans('menu.soluciones')}}
+												<a href="#ilernus">
+													{{trans('menu.ilernus')}}
 												</a>
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#soluciones">
-														{{trans('menu.soluciones')}}
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#ilernus">
+														{{trans('menu.ilernus')}}
 													</a>
 
 												@else
 
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#soluciones">
-														{{trans('menu.soluciones')}}
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#ilernus">
+														{{trans('menu.ilernus')}}
 													</a>
 
 												@endif
 
 											@endif
-																						
+
 										</li>
 
-
-
-
-										<li><!--  -->
-
-											@if(Route::current()->getName() == 'home')
-
-												<a  href="#cursos">
-													{{trans('menu.nuestrosCursos')}}
-												</a>
-
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
-
-												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#cursos">
-														{{trans('menu.nuestrosCursos')}}
-													</a>
-
-												@else
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#cursos">
-														{{trans('menu.nuestrosCursos')}}
-													</a>
-
-												@endif
-
-											@endif
-																						
-										</li>
-
-
-
-										<li><!--  -->
-											<a href="{{ route('instructores')}}">
-												{{trans('menu.academia')}}
-											</a>
-										</li>
-
-										<!--
 										<li>
-											<a href="{{ route('blog')}}" target="_blank">
-												Blog
-											</a>
-										</li>
-										-->
-
-										<!--
-										<li>
-											@if(Route::current()->getName() == 'home')
-
-												<a  href="#testimonios">
-													Testimonios
-												</a>
-
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
-
-												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#testimonios">
-														Testimonios
-													</a>
-
-												@else
-
-													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#testimonios">
-														Testimonios
-													</a>
-
-												@endif
-
-											@endif										
-										</li>
-
-										-->
-										<li><!--  -->
 											<a href="{{ route('contactanos')}}">
 												{{trans('menu.contacto')}}
 											</a>
 										</li>
-										<li class="dropdown language">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-												<i class="fa fa-globe"></i>
-												{{App::getLocale()}}
-												<i class="fa "></i>
-											</a>
-											<ul class="dropdown-menu">
-												<li> <a href="language/es">Español</a>   </li>
-
-												<li><a href="language/en">English</a>  </li>
-											</ul>
-										</li>
-
 
 									</ul>						 
 

@@ -110,7 +110,7 @@
 					<header class="text-center margin-bottom-60">
 						<h2>{{trans('landing.queEsIlernus')}}</h2>
 						<p class="lead font-lato margin-bottom-60">
-							{{trans('landing.laMejorSolucion')}} <strong style="color: #35459C">{{trans('landing.contenidosMetodologia')}}</strong> {{trans('landing.solucionesGestion')}}
+							{{trans('landing.laMejorSolucion')}} <strong style="color: #FD0000">{{trans('landing.contenidosMetodologia')}}</strong> {{trans('landing.solucionesGestion')}}
 						</p>
 
 						<h2>{{trans('landing.proyectoVision')}}</h2>
@@ -147,7 +147,7 @@
 
 
 
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #FD0000">
 
 				<div class="text-center">
 
@@ -165,7 +165,6 @@
 				<div class="row">
 
 					<div class="col-md-3">
-
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-segumiento"></i>
@@ -269,7 +268,7 @@
 
 
 
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #FD0000">
 
 				<div class="text-center">
 
@@ -355,130 +354,61 @@
 
 					<div class="text-center">
 						<h3 class="size-30">{{trans('landing.conocenos')}}</h3>
-						<p>{{trans('landing.enI')}} <strong style="color: #F47741; font-size: 20px">{{trans('landing.Ilernus')}}</strong> {{trans('landing.ofrecemosAltaCalidad')}} <em><b>e-learning</b></em></p>
+						<p>{{trans('landing.enI')}} <strong style="color: #F47741; font-size: 20px">{{trans('landing.Ilernus')}}</strong> {{trans('landing.ofrecemosAltaCalidad')}}</p>
 					</div>
 
 				</div>
 			</section>
 
-			<div id="directores" class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div id="directores" class="callout alert alert-default noborder noradius nomargin" style="background-color: #FD0000">
 
 				<div class="text-center">
-					<br><br>
 					<h3 style="color: #ffffff">{{trans('landing.equipoDirectivo')}}</h3>
 
 				</div>
 
 			</div>	
 <!-- -->
-<section >
-	<div class="container">
-		
-<div class="row">
-
-<?php
-	$x=0;
-?>
-@foreach ($directores as $director) 
-
-							<div class="modal fade" id="myModal{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">
-							        	<span class="label" style="background-color: #35459C ">
-											@if( App::getLocale() == 'es' )
-												{{ $director->str_cargo }}
-											@else
-												{{ $director->str_cargo_en }}
-											@endif
-
-										</span>
-							        </h4>
-							      </div>
-							      <div class="modal-body">
-							      <h3>
-							      	{{ $director->str_nombre }}
-							      </h3>
-
-							        <p class="justify">
-										@if( App::getLocale() == 'es' )
-											{!! $director->str_cv !!}
-										@else
-											{!! $director->str_cv_en !!}
-										@endif
-										</p>
-
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-warning" data-dismiss="modal">{{trans('landing.cerrar')}}</button>
-							      </div>
-							    </div>
-							  </div>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="testimonial-content nopadding">
+								<p class="lead">{{trans('nosotros.text1')}}</p>
 							</div>
-
-
-
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-
-						<img class="img-responsive" src="data:image/jpeg;base64,{{ $director->blb_img }}" alt="{!! $director->str_nombre !!}" />
-
-						<!--<h2>{{ $director->str_nombre }}</h2>-->
+						</div>
 					</div>
-					
 				</div>
-			</div>
+			</section>	
 
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<!--
-					<h4>Director</h4>
-					<hr />
-					-->
-					<p style="font-size: 11px">
-						@if( App::getLocale() == 'es' )
-							{{ $director->str_cv_corto }}
-						@else
-							{{ $director->str_cv_corto_en }}
-						@endif
-
-					</p>
-
-					<br>
-
-					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModal{{$x}}">
-						<i class="fa fa-plus"></i>
-						<span>{{trans('landing.verMas')}}</span>
-					</a>
-
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-<?php
-	 $x++;
-?>
-@endforeach
-
-</div>
-	</div>
-</section>		
-
-			<div id="gerentes" class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div id="gerentes" class="callout alert alert-default noborder noradius nomargin" style="background-color: #FD0000">
 
 				<div class="text-center">
-					<br><br>
 					<h3 style="color: #ffffff">{{trans('landing.equipoGerencial')}}</h3>
+
+				</div>
+
+			</div>	
+
+
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="testimonial-content nopadding">
+							<p class="lead">{{trans('nosotros.text2')}}</p><br>
+							<p class="lead">{{trans('nosotros.text3')}}</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<div id="objetivos" class="callout alert alert-default noborder noradius nomargin" style="background-color: #FD0000">
+
+				<div class="text-center">
+					<h3 style="color: #ffffff">{{trans('landing.objetivo')}}</h3>
 
 				</div>
 
@@ -491,183 +421,16 @@
 
 <div class="row">
 
-<?php
-	$x=0;
-?>
-@foreach ($ceos as $ceo)
-
-
-							<div class="modal fade" id="myModalCeo{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">
-							        	<span class="label" style="background-color: #35459C ">
-											@if( App::getLocale() == 'es' )
-												{{ $ceo->str_cargo }}
-											@else
-												{{ $ceo->str_cargo_en }}
-											@endif
-
-										</span>
-							        </h4>
-							      </div>
-							      <div class="modal-body">
-							      <h3>
-							      	{{ $ceo->str_nombre }}
-							      </h3>
-
-							        <p class="justify">
-										@if( App::getLocale() == 'es' )
-											{!! $ceo->str_cv !!}
-										@else
-											{!! $ceo->str_cv_en !!}
-										@endif
-
-									</p>
-
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-warning" data-dismiss="modal">{{trans('landing.cerrar')}}</button>
-							      </div>
-							    </div>
-							  </div>
-							</div>
-
-
-
-	<div class="col-md-4 col-md-offset-4">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-
-						<img class="img-responsive" src="data:image/jpeg;base64,{{ $ceo->blb_img }}" alt="{!! $ceo->str_nombre !!}" />
-
+	<div class="row">
+						<div class="col-md-12">
+								<ol class="lead">
+									<li>{{trans('nosotros.obj1')}}</li>
+									<li>{{trans('nosotros.obj2')}}</li>
+									<li>{{trans('nosotros.obj3')}}</li>
+									<li>{{trans('nosotros.obj4')}}</li>
+								</ol>
+						</div>
 					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-
-					<p style="font-size: 11px">
-						@if( App::getLocale() == 'es' )
-							{{ $ceo->str_cv_corto }}
-						@else
-							{{ $ceo->str_cv_corto_en }}
-						@endif
-
-					</p>
-
-					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalCeo{{$x}}">
-						<i class="fa fa-plus"></i>
-						<span>{{trans('landing.verMas')}}</span>
-					</a>
-
-				</div>
-			</div>
-		</div>
-			<br>
-	</div>
-<?php
-	$x++;
-?>
-@endforeach
-
-</div>
-
-<div class="row">
-
-<?php
-	$x=0;
-?>
-@foreach ($gerentes as $gerente)
-
-
-							<div class="modal fade" id="myModalGerente{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">
-							        	<span class="label" style="background-color: #35459C ">
-											@if( App::getLocale() == 'es' )
-												{{ $gerente->str_cargo }}
-											@else
-												{{ $gerente->str_cargo_en }}
-											@endif
-
-										</span>
-							        </h4>
-							      </div>
-							      <div class="modal-body">
-							      <h3>
-							      	{{ $gerente->str_nombre }}
-							      </h3>
-
-							        <p class="justify">
-										@if( App::getLocale() == 'es' )
-											{!! $gerente->str_cv !!}
-										@else
-											{!! $gerente->str_cv_en !!}
-										@endif
-
-									</p>
-
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-warning" data-dismiss="modal">{{trans('landing.cerrar')}}</button>
-							      </div>
-							    </div>
-							  </div>
-							</div>
-
-
-
-	<div class="col-md-4">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-
-						<img class="img-responsive" src="data:image/jpeg;base64,{{ $gerente->blb_img }}" alt="{!! $gerente->str_nombre !!}" />
-
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-
-					<p style="font-size: 11px">
-						@if( App::getLocale() == 'es' )
-							{{ $gerente->str_cv_corto }}
-						@else
-							{{ $gerente->str_cv_corto_en }}
-						@endif
-
-					</p>
-
-					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
-						<i class="fa fa-plus"></i>
-						<span>{{trans('landing.verMas')}}</span>
-					</a>
-
-				</div>
-			</div>
-		</div>
-			<br>
-	</div>
-<?php
-	$x++;
-?>
-@endforeach
 
 </div>
 
@@ -676,8 +439,6 @@
 
 
 </section>
-
-
 
 
 			<section id="soluciones" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
@@ -1099,7 +860,7 @@
 
 						<div class="col-xs-6 col-sm-3 col-xs-6">
 							<i class="fa fa-laptop" style="font-size: 50px" aria-hidden="true"></i>
-							<div class="block size-50" style="color: #35459C;">
+							<div class="block size-50" style="color: #FD0000;">
 								<strong class="countTo size-50" data-speed="3000">30</strong>
 							</div>
 							<h3 class="size-15 margin-top-10 margin-bottom-0">PROYECTOS Y CONTENIDOS VIRTUALIZADOS</h3>
