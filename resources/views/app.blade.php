@@ -59,9 +59,9 @@
 
 
 
-		<link rel="icon" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}" type="image/x-icon"/>
-		<link rel="shortcut icon" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}" type="image/x-icon"/>
-
+		<!-- <link rel="icon" href="{{ asset('smarty/assets/images/emblemafavicon.icomm') }}" type="image/x-icon"/>
+		<link rel="shortcut icon" href="{{ asset('smarty/assets/images/emblemafavicon.icomm') }}" type="image/x-icon"/>
+ -->
 
 
 	</head>
